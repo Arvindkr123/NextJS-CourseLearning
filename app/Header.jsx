@@ -21,6 +21,16 @@ const Header = () => {
           About
         </Link>
       </li>
+      <li>
+        <Link style={{ textDecoration: "none" }} href={"/contact"}>
+          Contact
+        </Link>
+      </li>
+      <li>
+        <Link style={{ textDecoration: "none" }} href={"/aboutus"}>
+          About Us
+        </Link>
+      </li>
     </ul>
   );
 };
